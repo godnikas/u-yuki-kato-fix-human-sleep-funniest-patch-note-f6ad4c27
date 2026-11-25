@@ -31,11 +31,14 @@
 //   deliver it.
 // - "Fixed a bug where humans woke up tired; sleep now works as intended."
 //   — a flat claim that sleep is fixed, exactly what criterion 5 penalises.
+//
+// Coordinator revision (2nd pass): "crashed at 3 AM to install" → "crashed
+// at 3 AM installing" — drops a filler word, same joke, 110 chars.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "Fixed a bug where sleep crashed at 3 AM to install an update called 'Remember That Embarrassing Thing From 2014'.";
+  "Fixed a bug where sleep crashed at 3 AM installing an update called 'Remember That Embarrassing Thing From 2014'.";
 
 function main(): void {
   const chars = [...LINE];
