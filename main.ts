@@ -33,7 +33,7 @@
 //   — a flat claim that sleep is fixed, exactly what criterion 5 penalises.
 //
 // Coordinator revision (2nd pass): "crashed at 3 AM to install" → "crashed
-// at 3 AM installing" — drops a filler word, same joke, 110 chars.
+// at 3 AM installing" — drops a filler word, same joke, still 113 chars.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
